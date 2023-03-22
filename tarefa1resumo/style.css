@@ -24,11 +24,14 @@
 .conteudo{
     padding-left: 5%;
 }
+.bio{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #343238;
+  padding-left: 5%;
     padding-bottom: 2%; /* altura do rodapé */
   }
 .textos-normais{
@@ -40,13 +43,28 @@ footer {
 }
 .paragrafos{
     padding-right: 5%;
+    display: inline-block;
 }
 .paragrafos-textos{
     font-family: Andale Mono, monospace;
 }
+.image_perfil{
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  min-width: 40%;
+  padding: 10%;
+  width: 80%;
+  flex: auto;
+}
 .ul-wrapper {
+  
+  min-width: 15%;
+  max-width: 100%;
+  padding: auto;
+  display: flex;
+    justify-content: space-between;
     font-family: Andale Mono, monospace;
-    padding-top: -5%;
+    margin-bottom: 1%;
     overflow: auto; /* Adiciona uma quebra de linha após as listas */
   }
 
